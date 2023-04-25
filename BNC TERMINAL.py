@@ -9,9 +9,9 @@ driver = webdriver.Chrome()
 url = "https://info.bct2-4.com/infoservice/index.html"
 driver=webdriver.Chrome()
 driver.get(url)
-#element = driver.find_element(By.ID, "mainframe_vframeset_hframeset_bodyframe_introframe_popNotice_titlebar_closebuttonAlignImageElement")
-#mainframe_vframeset_hframeset_leftframe_form_grd_menu_body_gridrow_1_cell_1_0_controltreeTextBoxElement > div
-#element.click()
+element = driver.find_element(By.ID, "mainframe_vframeset_hframeset_bodyframe_introframe_popNotice_titlebar_closebuttonAlignImageElement")
+
+element.click()
 
 driver.quit()
 
